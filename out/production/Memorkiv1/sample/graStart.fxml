@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GraStart">
+   <children>
+      <Button fx:id="playBTN" layoutX="419.0" layoutY="361.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#startGame" prefHeight="65.0" prefWidth="65.0" />
+      <Button fx:id="exitBTN" layoutX="501.0" layoutY="361.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="65.0" prefWidth="65.0" />
+      <Button fx:id="ranking" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#openRanking" text="Ostatnie wyniki" />
+      <ToggleButton fx:id="musicBTN" layoutX="14.0" layoutY="384.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#actionMusic" prefHeight="28.0" prefWidth="28.0" />
+      <ImageView fx:id="logo" fitHeight="150.0" fitWidth="390.0" layoutX="95.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>
